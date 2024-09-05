@@ -1,0 +1,42 @@
+body {
+    background-color: #e6f2ff;
+    font-family: Arial, sans-serif;
+    direction: rtl;
+    text-align: right;
+}
+
+h1 {
+    color: #004080;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+input[type="text"], input[type="file"] {
+    padding: 5px;
+    margin: 5px 0;
+}
+
+input[type="submit"] {
+    background-color: #004080;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #003366;
+}
+
+img, video {
+    margin-top: 10px;
+}
+
+footer {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 14px;
+    color: #333;
+}
