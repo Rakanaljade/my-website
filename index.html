@@ -77,6 +77,13 @@
             listItem.appendChild(video);
         }
 
+        const deleteButton = document.createElement('button');
+        deleteButton.textContent = 'حذف';
+        deleteButton.addEventListener('click', function() {
+            homeworkList.removeChild(listItem);
+        });
+        listItem.appendChild(deleteButton);
+
         homeworkList.appendChild(listItem);
     });
 </script>
